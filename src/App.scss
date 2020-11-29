@@ -1,7 +1,16 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh;
+  background: #E5E5E5;
 }
 
+* {
+  text-decoration: none;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
